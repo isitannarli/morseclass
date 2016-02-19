@@ -4,11 +4,7 @@
 
 <h4>Include Class</h4>
 <code>
-
-require 'MorseClass.php';
-
-$morse = new MorseClass();
-
+require 'MorseClass.php'; $morse = new MorseClass();
 </code>
 
 <h4>Text To Mors</h4>
