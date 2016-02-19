@@ -1,11 +1,14 @@
-<h1>Php Mors Alphabet Class</h1>
+<h1>Php Morse Alphabet Class</h1>
 
 <h2>How To Use The Class</h2>
 
 <h4>Include Class</h4>
 <code>
+
 require 'MorseClass.php';
+
 $morse = new MorseClass();
+
 </code>
 
 <h4>Text To Mors</h4>

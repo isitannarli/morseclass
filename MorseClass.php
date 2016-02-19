@@ -90,7 +90,6 @@ class MorseClass
 
         $this->content = strtoupper($content);
 
-
         $words = preg_split("/\s+/", $this->content);
 
         $words_out = array();
@@ -132,13 +131,9 @@ class MorseClass
             {
 
                 if ($bit == '/')
-                {
                     $this->out .= " ";
-                }
                 else
-                {
                     @$this->out .= strtolower(array_search($bit, self::$alphabet));
-                }
 
             }
 
